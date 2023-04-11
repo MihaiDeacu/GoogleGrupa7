@@ -27,10 +27,10 @@ while numar_incercari <= 3:
         set_litere_incercate.add(litera_incercata)
         if numar_incercari == 3:
             print(f"Ai pierdut! Cuvantul initial era: {cuvant}")
-                break
+            break
         print(f"Mai ai {3 - numar_incercari} incercari. ai incercat deja aceasta litera. literele incercate sunt: {','.join(set_litere_incercate)}")
     if '_' not in cuvant_initial:
         print("Ai castigat")
-            break
+        break
     print(" ".join(cuvant_initial))
 
